@@ -32,7 +32,7 @@ public class PracticeProblem {
 	public static int sumColumn(int[][] array, int c) {
 		int sum = 0;
 		for (int i = 0; i < array.length; i++) {
-			if (c < array[i].length) {  // Ensure the column exists in the current row
+			if (c < array[i].length) {  
 				sum += array[i][c];
 			}
 		}
